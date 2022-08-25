@@ -38,6 +38,7 @@ class App extends Component {
 
     return (
       <div className="App">
+        <h1 className="app-title">Robot indexing</h1>
         <SearchBox
           OnChangeHandler={OnSearchChange}
           placeholder="Search Monsters"
